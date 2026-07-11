@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "点滴打卡",
+  "version": "0.1.0",
+  "identifier": "com.tauri-app.stamp-app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "点滴",
+        "width": 1600,
+        "height": 900,
+        "minWidth": 1300,
+        "minHeight": 720,
+        "resizable": true,
+        "fullscreen": false,
+        "alwaysOnTop": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+
+    "windows": {
+      "wix": {
+        "language": "zh-CN" 
+      },
+      "nsis": {
+        "languages": ["SimpChinese"] 
+      }
+    }
+  }
+}
