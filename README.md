@@ -63,7 +63,7 @@
 
 ```bash
 git clone https://github.com/onlyuuid/stamp-app.git
-cd 你的仓库名
+cd stamp-app
 ```
 ## 安装前端依赖
 ```bash
