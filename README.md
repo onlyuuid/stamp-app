@@ -1,4 +1,4 @@
-# 💧 点滴打卡 (StampApp) — 积小流，成江海
+# 💧 点滴 (StampApp) — 积小流，成江海
 
 [![Tauri](https://img.shields.io/badge/Tauri-2.0-blue?logo=tauri)](https://tauri.app/)
 [![Vue](https://img.shields.io/badge/Vue-3.x-emerald?logo=vue.js)](https://vuejs.org/)
