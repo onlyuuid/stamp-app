@@ -6,7 +6,6 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **点滴打卡 (StampApp)** 是一款基于 **Tauri 2.0 + Vue 3 + Rust (SeaORM)** 构建的单机硬核、视觉治愈系习惯养成与精力全追踪桌面应用。我们拒绝焦虑和死板的打卡表格，采用“玻璃蓄水瓶”与“小兔子”的陪伴式视觉隐喻，帮助你在开发、学习与日常生活中，将时间的投入具象化为每一滴清澈的水滴，积小流以成江海。
-
 ---
 
 ## 🎨 匠心独运的视觉呈现
@@ -61,7 +60,7 @@
 ### 1. 克隆项目仓库
 
 ```bash
-git clone [https://github.com/onlyuuid/stamp-app.git](https://github.com:onlyuuid/stamp-app.git)
+git clone https://github.com/onlyuuid/stamp-app.git
 cd 你的仓库名
 ```
 ## 安装前端依赖
